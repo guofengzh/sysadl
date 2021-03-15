@@ -1,6 +1,6 @@
 @xcore.lang.Ecore(nsURI="http://org.sysadl")
 @xcore.lang.GenModel(modelDirectory="/org.sysadl/src", prefix="SysADL", fileExtensions="sysadl", modelName="SysADL",
-	importerID="org.eclipse.emf.importer.ecore")
+	importerID="org.eclipse.emf.importer.ecore", loadInitialization="true", literalsInterface="true")
 package org.sysadl
 
 annotation "aspect" as Aspect
